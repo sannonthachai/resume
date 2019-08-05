@@ -8,6 +8,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { SpecializationComponent } from './specialization/specialization.component';
 import { EducationBackgroundComponent } from './education-background/education-background.component';
 import { ContactInformationComponent } from './contact-information/contact-information.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactInformationComponent } from './contact-information/contact-infor
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
