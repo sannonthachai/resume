@@ -5,6 +5,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { SpecializationComponent } from './specialization/specialization.component';
 import { EducationBackgroundComponent } from './education-background/education-background.component';
 import { ContactInformationComponent } from './contact-information/contact-information.component';
+import { PrintComponent } from './print/print.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'specialization', component: SpecializationComponent},
   {path: 'education', component: EducationBackgroundComponent},
   {path: 'contact', component: ContactInformationComponent},
+  {path: 'print', component: PrintComponent},
   {path: '**', redirectTo: '', pathMatch: 'full'}
 ];
 

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PrintService } from './service/print.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'resume';
+
+  constructor(private printService: PrintService) {}
+
+  onPrint() {
+    this.printService.printDocument();
+  }
 }
