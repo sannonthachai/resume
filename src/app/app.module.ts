@@ -9,6 +9,7 @@ import { SpecializationComponent } from './specialization/specialization.compone
 import { EducationBackgroundComponent } from './education-background/education-background.component';
 import { ContactInformationComponent } from './contact-information/contact-information.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PrintComponent } from './print/print.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     WorkExperienceComponent,
     SpecializationComponent,
     EducationBackgroundComponent,
-    ContactInformationComponent
+    ContactInformationComponent,
+    PrintComponent
   ],
   imports: [
     BrowserModule,
