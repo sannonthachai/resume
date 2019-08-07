@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PrintService } from '../service/print.service'
 
 @Component({
   selector: 'app-print',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrintComponent implements OnInit {
 
-  constructor() { }
+  constructor(private printService: PrintService) { }
 
   ngOnInit() {
+    this.printService.onDataReady();
   }
 
 }
