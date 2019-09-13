@@ -10,7 +10,7 @@ import { PrintComponent } from './print/print.component';
 
 const routes: Routes = [
   {path: '', component: ProfileComponent},
-  {path: 'profile', component: ProfileComponent},
+  {path: 'objective', component: ProfileComponent},
   {path: 'experience', component: WorkExperienceComponent},
   {path: 'specialization', component: SpecializationComponent},
   {path: 'education', component: EducationBackgroundComponent},
